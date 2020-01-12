@@ -1,0 +1,118 @@
+%----------------------------------------------------------------------------------------
+% Dr. Ke Li's CV LaTex Template (version 1.0)
+%
+% This template has been downloaded and developed from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same
+% directory as this .tex file. These files provide the resume style and themes
+% used for structuring the document.
+%
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.85]{geometry} % Reduce document margins
+
+\usepackage{footmisc}
+\renewcommand{\thefootnote}{}
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Bing} % Your first name
+\familyname{Tan} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Master student}
+\address{Institute of Fundamental and Frontier Sciences\\ University of Electronic Science and Technology of China\\}{Chengdu, China}
+%\mobile{+(44) 790-790-8206}
+\email{bingtan72@gmail.com}
+\homepage{bingtan72.github.io/}{http://bingtan72.github.io/} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+% \extrainfo{additional information}
+\photo[70pt][0.4pt]{pictures/bingtan.jpg} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+%\quote{"A witty and playful quotation" - John Smith}
+%\quote{\footnotesize Last updated: \today}
+
+% Colors
+\usepackage{xcolor}	 % Required for custom colors
+% Define a few colors for making text stand out within the presentation
+\definecolor{mygreen}{RGB}{44,85,17}
+\definecolor{DarkGreen}{RGB}{0.000000,0.392157,0.000000}
+\definecolor{myblue}{RGB}{34,31,217}
+\definecolor{mybrown}{RGB}{194,164,113}
+\definecolor{myred}{RGB}{255,66,56}
+% Use these colors within the presentation by enclosing text in the commands below
+\newcommand*{\mygreen}[1]{\textcolor{mygreen}{#1}}
+\newcommand*{\mydgreen}[1]{\textcolor{DarkGreen}{#1}}
+\newcommand*{\myblue}[1]{\textcolor{myblue}{#1}}
+\newcommand*{\mybrown}[1]{\textcolor{mybrown}{#1}}
+\newcommand*{\myred}[1]{\textcolor{myred}{#1}}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	RESEARCH INTEREST SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Research Interests}
+\cvitem{}{Optimization algorithms, theory, applications}
+\cvitem{}{Variational inequality}
+\cvitem{}{Image Processing}
+
+\section{Education}
+\cventry{2018 -- 2021}{Masters of Mathematic}{Institute of Fundamental and Frontier Sciences}{University of Electronic Science and Technology of China}{China}{Supervisor: Prof. Songxiao Li and Prof. Xiaolong Qin}
+\cventry{2014 -- 2018}{Bachelor of Mathematic}{School of Science}{Southwest Petroleum University}{China}{}
+
+\section{Publications}
+
+\subsection{Journal papers}
+\cvitem{JNCA}{\textbf{Bing Tan}, Shanshan Xu, Songxiao Li*. Inertial shrinking projection algorithms for solving hierarchical variational inequality problems. Accepted by Journal of Nonlinear and Covnex Analysis (2020)}
+\cvitem{JNCA}{Yinglin Luo, \textbf{Bing Tan}*, A self-adaptive inertial extragradient algorithm for solving pseudo-monotone variational inequality in Hilbert spaces. Accepted by Journal of Nonlinear and Covnex Analysis (2020)}
+
+\subsection{Preprints}
+
+\cvitem{JNCA}{Liya Liu, \textbf{Bing Tan}. On the resolution of variational inequality problems with a double-hierarchical structure. Submitted to Journal of Nonlinear and Covnex Analysis}
+\cvitem{JAAC}{Zheng Zhou, \textbf{Bing Tan}, Songxiao Li*. An inertial shrinking projection algorithm for split common fixed point problems. Submitted to Journal of Applied Analysis and Computation}
+\cvitem{JAAC}{\textbf{Bing Tan}, Zheng Zhou, Xiaolong Qin*. Accelerated projection-based forward-backward splitting algorithms for monotone inclusion problems. Submitted to Journal of Applied Analysis and Computation}
+\cvitem{NFAO}{Jingjing Fan, Xiaolong Qin*, \textbf{Bing Tan}. Convergence of an inertial shadow Douglas-Rachford splitting for monotone inclusions. Submitted to Numerical Functional Analysis and Optimization}
+\cvitem{Mathematics}{Zheng Zhou*, \textbf{Bing Tan}, Songxiao Li, Xiaolong Qin. Self-adaptive-type algorithms for solving split equality problems. Submitted to Mathematics}
+\cvitem{Mathematics}{Yinglin Luo, \textbf{Bing Tan}, Meijuan Shang*. A general inertial viscosity type method for nonexpansive mappings and its applications in signal processing. Submitted to Mathematics}
+\cvitem{MMA}{Zheng Zhou, \textbf{Bing Tan}, Songxiao Li*, Xiaolong Qin. A new accelerated self-adaptive stepsize algorithm with excellent stability for split common fixed point problems. Submitted to Mathematical Methods in the Applied Sciences}
+\section{Awards}
+\cvitem{2019}{First-class scholarship of University of Electronic Science and Technology of China}
+\cvitem{2018}{Second-class scholarship of University of Electronic Science and Technology of China}
+
+%\section{Professional Services}
+
+%\subsection{Memberships}
+%\cvitem{2010 -- 2014}{IEEE student member}
+%\cvitem{2013 -- now}{ACM professional member}
+
+
+\section{Computer skills}
+\cvitem{}{MATLAB, \LaTeX, Microsoft Office}
+
+
+\footnote{Updated by \today}
+\end{document}
