@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.9.21)  12 JAN 2020 22:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.9.21)  12 FEB 2020 12:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -549,6 +549,8 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 79.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 79.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 90.
 [1
 
 {t:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./pictures/bing
@@ -566,12 +568,12 @@ Package rerunfilecheck Info: File `CV-B.Tan.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  12288 strings out of 492649
- 178690 string characters out of 6133384
+ 178709 string characters out of 6133384
  406822 words of memory out of 5000000
- 15953 multiletter control sequences out of 15000+600000
- 79533 words of font info for 83 fonts, out of 8000000 for 9000
+ 15955 multiletter control sequences out of 15000+600000
+ 82237 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,13n,67p,883b,336s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,12n,67p,883b,336s stack positions out of 5000i,500n,10000p,200000b,80000s
 {t:/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}<t:/texlive/2018/tex
 mf-dist/fonts/type1/public/lm/lmss10.pfb><t:/texlive/2018/texmf-dist/fonts/type
 1/public/lm/lmss12.pfb><t:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmss17
@@ -580,7 +582,7 @@ mf-dist/fonts/type1/public/lm/lmss10.pfb><t:/texlive/2018/texmf-dist/fonts/type
 /type1/public/lm/lmssbx10.pfb><t:/texlive/2018/texmf-dist/fonts/type1/public/lm
 /lmsso10.pfb><t:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmsso17.pfb><t:/
 texlive/2018/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on CV-B.Tan.pdf (2 pages, 237162 bytes).
+Output written on CV-B.Tan.pdf (2 pages, 238197 bytes).
 PDF statistics:
  93 PDF objects out of 1000 (max. 8388607)
  77 compressed objects within 1 object stream
